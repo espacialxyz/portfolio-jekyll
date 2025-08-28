@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <main class="content">
+    <div class="post">
+      <div class="post-image-container">
+        <img src="{{ page.image }}" alt="{{ page.title }}" class="post-image">
+        <div class="post-overlay">
+          <h2>{{ page.title }}</h2>
+          <ul class="post-tags">
+            {% for tag in page.tags %}
+              <li>+ {{ tag }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

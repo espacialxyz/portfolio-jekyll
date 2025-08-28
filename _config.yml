@@ -1,0 +1,5 @@
+title: "espacio.xyz"
+baseurl: "" # dejar vacío si usás GitHub Pages en tuusuario.github.io
+url: "https://espacialxyz.github.io"
+markdown: kramdown
+theme: minima
